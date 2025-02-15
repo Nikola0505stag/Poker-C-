@@ -130,12 +130,14 @@
     <ClCompile Include="card.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="print.cpp" />
+    <ClCompile Include="rating.cpp" />
     <ClCompile Include="start.cpp" />
     <ClCompile Include="welcome.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="card.h" />
     <ClInclude Include="print.h" />
+    <ClInclude Include="rating.h" />
     <ClInclude Include="start.h" />
     <ClInclude Include="welcome.h" />
   </ItemGroup>

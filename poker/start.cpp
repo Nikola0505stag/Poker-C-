@@ -2,6 +2,7 @@
 #include "card.h"
 #include "welcome.h"
 #include "print.h"
+#include "rating.h"
 
 vector <player> players;
 
@@ -32,7 +33,13 @@ void start() {
 	}
 	
 	for (int i = 0; i < players.size(); i++) {
+		system("cls");
 		printPlayerCards(i);
+		cout << "\tPoints: ";
+		cout << rate(i);
+
+		newline();
+		system("pause");
 	}
 
 	printPlayersCards();

@@ -1,2 +1,1 @@
-void newline();
 void welcome();

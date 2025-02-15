@@ -6,6 +6,7 @@
 #include <cstdlib>
 #include <ctime>
 #include<windows.h>
+#include "print.h"
 
 
 using namespace std;

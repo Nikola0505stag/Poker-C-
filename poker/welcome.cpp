@@ -1,11 +1,10 @@
 #include "welcome.h"
 #include<iostream>
+#include "print.h"
 
 using namespace std;
 
-void newline() {
-	cout << endl << endl;
-}
+
 
 void welcome() {
 	cout << "\t\t" << "Hello, welcome to the \"Alternative Poker\" game."; newline();

@@ -2,8 +2,12 @@
 #include"card.h"
 #include "start.h"
 #include <windows.h>
+#include "print.h"
 
 
+void newline() {
+	std::cout << std::endl << std::endl;
+}
 
 void printPlayersCards() {
 	for (int i = 0; i < players.size(); i++) {
@@ -20,11 +24,9 @@ void printDeck() {
 }
 
 void printPlayerCards(int n) {
-	system("cls");
 	
 	cout << players.at(n).card1.cardd << players.at(n).card1.color << " " <<
 		players.at(n).card2.cardd << players.at(n).card2.color << " " <<
-		players.at(n).card3.cardd << players.at(n).card3.color << endl;
-	system("pause");
-	
+		players.at(n).card3.cardd << players.at(n).card3.color;
+
 }
